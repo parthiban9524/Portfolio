@@ -51,6 +51,13 @@ export const resumeData = {
       type: "EV charging mobile app",
       description:
         "Built as the sole developer to help EV owners locate charging stations, charge vehicles, and access 24/7 roadside assistance.",
+      apps: [
+        {
+          name: "PLUGNPE",
+          detail:
+            "Used by EV owners to discover nearby charging stations, start charging sessions, complete payments, and request roadside assistance when needed.",
+        },
+      ],
       impact: ["Integrated map features", "Added Razorpay payment SDK", "Implemented Firebase push notifications"],
       tech: ["React Native CLI", "Firebase", "Razorpay", "Maps"],
       links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.plugnpe" }],
@@ -60,6 +67,23 @@ export const resumeData = {
       type: "B2B e-commerce mobile applications",
       description:
         "Built key UI modules for a B2B e-commerce app and handled a multi-flavor mobile architecture at Vigo Retail.",
+      apps: [
+        {
+          name: "Vigo App",
+          detail:
+            "Supports B2B ordering workflows with product browsing, account-specific flows, and mobile-first commerce interactions.",
+        },
+        {
+          name: "Vigo Mart",
+          detail:
+            "Designed for marketplace-style retail operations, helping users browse items and move through purchase flows efficiently.",
+        },
+        {
+          name: "Commerce Lynk",
+          detail:
+            "A commerce workflow app where I supported reusable UI modules, API-connected screens, and multi-flavor build handling.",
+        },
+      ],
       impact: ["Managed Android and iOS builds", "Supported deployment processes", "Collaborated on API integration"],
       tech: ["React Native", "Android", "iOS", "REST APIs"],
       links: [],
@@ -69,6 +93,18 @@ export const resumeData = {
       type: "Trading apps",
       description:
         "Contributed to trading applications that enable users to buy and sell trades, developing core screens and multiple features.",
+      apps: [
+        {
+          name: "GO Markets",
+          detail:
+            "Used by traders to access markets, monitor positions, and place trades from a mobile-first trading experience.",
+        },
+        {
+          name: "Investec",
+          detail:
+            "A finance app experience where I contributed to core screens, app flows, and performance-focused React Native UI work.",
+        },
+      ],
       impact: ["Used Redux-Saga for state management", "Optimized with React hooks and React.memo", "Improved app flows"],
       tech: ["React Native", "Redux-Saga", "React Hooks"],
       links: [
@@ -81,6 +117,23 @@ export const resumeData = {
       type: "Location, offers, events, and award progress apps",
       description:
         "Developed features and UI screens for location-based offers, news, event discovery, and Duke of Edinburgh's Award progress tracking.",
+      apps: [
+        {
+          name: "IN THE CITY",
+          detail:
+            "Helps users discover local offers, events, news, and nearby city experiences through a location-aware mobile app.",
+        },
+        {
+          name: "CDA",
+          detail:
+            "A district-focused club app for offers, local updates, and community engagement with a redesigned mobile UI experience.",
+        },
+        {
+          name: "DofE",
+          detail:
+            "Supports Duke of Edinburgh's Award participants with activity planning, progress tracking, evidence submission, and programme completion workflows.",
+        },
+      ],
       impact: ["Built reusable UI components", "Implemented progress tracking features", "Improved user experience"],
       tech: ["React Native", "Redux-Saga", "Hooks"],
       links: [
