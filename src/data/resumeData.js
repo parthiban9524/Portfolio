@@ -2,7 +2,7 @@ export const resumeData = {
   name: "Parthiban M",
   initials: "PM",
   title: "React Native Developer",
-  headline: "Senior Mobile Application Developer building reliable cross-platform mobile experiences.",
+  headline: "Senior Mobile Application Developer shipping polished, reliable cross-platform apps.",
   location: "Virudhunagar, Tamil Nadu, India",
   address: "16, Periya Pallivasal St., Virudhunagar",
   phone: "9524086370",
@@ -10,7 +10,13 @@ export const resumeData = {
   linkedin: "https://www.linkedin.com/in/parthiban-m-82674a1a6/",
   github: "",
   summary:
-    "Senior Mobile Application Developer with 4 years of experience in mobile application development. Strong expertise in React Native, state management, payment integrations, push notifications, API integration, and building smooth user experiences across Android and iOS.",
+    "Senior Mobile Application Developer with 4 years of experience building production React Native apps across EV charging, trading, e-commerce, location-based services, and customer workflows. Strong in UI delivery, state management, native builds, payment integrations, maps, push notifications, and API-heavy mobile experiences.",
+  buildCredit: "This portfolio was vibe-coded with Codex and refined into a production-ready React portfolio.",
+  stats: [
+    { value: "4+", label: "Years experience" },
+    { value: "8+", label: "Apps contributed" },
+    { value: "Android/iOS", label: "Build support" },
+  ],
   highlights: [
     "4+ years in mobile application development",
     "React Native CLI, hooks, and functional components",
@@ -47,8 +53,7 @@ export const resumeData = {
         "Built as the sole developer to help EV owners locate charging stations, charge vehicles, and access 24/7 roadside assistance.",
       impact: ["Integrated map features", "Added Razorpay payment SDK", "Implemented Firebase push notifications"],
       tech: ["React Native CLI", "Firebase", "Razorpay", "Maps"],
-      linkLabel: "Google Play Store listing noted in resume",
-      link: "",
+      links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.plugnpe" }],
     },
     {
       name: "Vigo App, Vigo Mart, Commerce Lynk",
@@ -57,7 +62,7 @@ export const resumeData = {
         "Built key UI modules for a B2B e-commerce app and handled a multi-flavor mobile architecture at Vigo Retail.",
       impact: ["Managed Android and iOS builds", "Supported deployment processes", "Collaborated on API integration"],
       tech: ["React Native", "Android", "iOS", "REST APIs"],
-      link: "",
+      links: [],
     },
     {
       name: "GOMARKETS and INVESTEC",
@@ -66,7 +71,10 @@ export const resumeData = {
         "Contributed to trading applications that enable users to buy and sell trades, developing core screens and multiple features.",
       impact: ["Used Redux-Saga for state management", "Optimized with React hooks and React.memo", "Improved app flows"],
       tech: ["React Native", "Redux-Saga", "React Hooks"],
-      link: "",
+      links: [
+        { label: "GO Markets", url: "https://gomarkets.com/en/downloads" },
+        { label: "Investec app", url: "https://play.google.com/store/apps/details?id=com.investec.app" },
+      ],
     },
     {
       name: "IN THE CITY, CDA, and DOFE",
@@ -75,25 +83,7 @@ export const resumeData = {
         "Developed features and UI screens for location-based offers, news, event discovery, and Duke of Edinburgh's Award progress tracking.",
       impact: ["Built reusable UI components", "Implemented progress tracking features", "Improved user experience"],
       tech: ["React Native", "Redux-Saga", "Hooks"],
-      link: "",
-    },
-    {
-      name: "HUBDUB",
-      type: "Parent-child task management app",
-      description:
-        "Developed task assignment, tracking, and progress update features with separate workflows for parent and child users.",
-      impact: ["Built responsive UI screens", "Integrated APIs", "Managed real-time task state"],
-      tech: ["React Native", "REST APIs", "State Management"],
-      link: "",
-    },
-    {
-      name: "JUS VOUCHERS",
-      type: "Discount voucher Android app",
-      description:
-        "Developed and maintained an Android app for purchasing and managing discount coupons and vouchers.",
-      impact: ["Implemented navigation flows", "Built reusable components", "Delivered scalable mobile features"],
-      tech: ["React Native", "Android", "APIs"],
-      link: "",
+      links: [{ label: "DofE app", url: "https://play.google.com/store/apps/details?id=org.production.edofe" }],
     },
   ],
   experience: [
@@ -125,26 +115,6 @@ export const resumeData = {
         "Worked on GOMARKETS and INVESTEC trading apps for buying and selling trades.",
         "Developed multiple features and core screens with a focus on smooth user experience.",
         "Used Redux-Saga, React hooks, and React.memo for state management and performance optimization.",
-      ],
-    },
-    {
-      role: "Mobile App Developer",
-      company: "Splice Global Services",
-      period: "Sep 2022 - Nov 2022",
-      details: [
-        "Built task assignment and progress update features for the HUBDUB parent-child task management app.",
-        "Supported separate workflows for parent and child users.",
-        "Built responsive UI screens, integrated APIs, and managed application state.",
-      ],
-    },
-    {
-      role: "Junior Software Engineer",
-      company: "Tech Jain (Contract)",
-      period: "May 2022 - Aug 2022",
-      details: [
-        "Developed and maintained the JUS VOUCHERS Android app for purchasing discount coupons.",
-        "Implemented responsive UI screens, navigation flows, and reusable components.",
-        "Collaborated with the team to integrate APIs and deliver mobile features within project timelines.",
       ],
     },
     {

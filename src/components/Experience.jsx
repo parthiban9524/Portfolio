@@ -5,9 +5,9 @@ import Section from "./Section.jsx";
 function Experience() {
   return (
     <Section id="experience" kicker="Experience" title="Professional timeline." className="bg-white">
-      <div className="space-y-5">
+      <div className="relative space-y-5">
         {resumeData.experience.map((job) => (
-          <article key={`${job.company}-${job.period}`} className="grid gap-5 rounded-lg border border-slate-200 bg-slate-50 p-6 md:grid-cols-[220px_1fr]">
+          <article key={`${job.company}-${job.period}`} className="grid gap-5 rounded-lg border border-slate-200 bg-slate-50 p-6 shadow-sm transition hover:border-cyan-300 hover:bg-white md:grid-cols-[220px_1fr]">
             <div>
               <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-md bg-white text-ocean shadow-sm">
                 <BriefcaseBusiness size={20} aria-hidden="true" />

@@ -1,17 +1,27 @@
-import { ArrowDown, ExternalLink, Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowDown, ExternalLink, Github, Linkedin, Mail, MapPin, Phone, Sparkles } from "lucide-react";
 import heroVisual from "../assets/mobile-developer.svg";
 import { resumeData } from "../data/resumeData.js";
 
 function Hero() {
   return (
     <section id="home" className="relative overflow-hidden bg-white py-16 sm:py-20 lg:py-24">
+      <div className="absolute inset-0 bg-slate-50" aria-hidden="true" />
       <div className="section-shell grid items-center gap-12 lg:grid-cols-[1.02fr_0.98fr]">
-        <div>
+        <div className="relative">
           <p className="section-kicker">{resumeData.title}</p>
           <h1 className="max-w-4xl text-4xl font-bold tracking-normal text-ink sm:text-5xl lg:text-6xl">
             {resumeData.name}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate sm:text-xl">{resumeData.headline}</p>
+
+          <div className="mt-7 grid max-w-2xl gap-3 sm:grid-cols-3">
+            {resumeData.stats.map((stat) => (
+              <div key={stat.label} className="rounded-lg border border-slate-200 bg-white/80 p-4 shadow-sm backdrop-blur">
+                <p className="text-2xl font-bold text-ink">{stat.value}</p>
+                <p className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate">{stat.label}</p>
+              </div>
+            ))}
+          </div>
 
           <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate">
             <span className="inline-flex items-center gap-2 rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
@@ -65,11 +75,17 @@ function Hero() {
               </a>
             ) : null}
           </div>
+
+          <div className="mt-7 flex max-w-2xl items-start gap-3 rounded-lg border border-cyan-200 bg-cyan-50/80 p-4 text-sm leading-6 text-cyan-950">
+            <Sparkles className="mt-0.5 shrink-0 text-ocean" size={18} aria-hidden="true" />
+            <p>{resumeData.buildCredit}</p>
+          </div>
         </div>
 
         <div className="relative">
           <div className="absolute -left-5 top-8 h-28 w-28 rounded-md bg-emerald-100" aria-hidden="true" />
           <div className="absolute -right-5 bottom-12 h-24 w-24 rounded-md bg-orange-100" aria-hidden="true" />
+          <div className="absolute inset-8 rounded-lg bg-ocean/10 blur-3xl" aria-hidden="true" />
           <img
             src={heroVisual}
             alt="Mobile development workspace illustration"
