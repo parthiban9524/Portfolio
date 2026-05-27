@@ -72,7 +72,7 @@ export const resumeData = {
       impact: ["Used Redux-Saga for state management", "Optimized with React hooks and React.memo", "Improved app flows"],
       tech: ["React Native", "Redux-Saga", "React Hooks"],
       links: [
-        { label: "GO Markets", url: "https://gomarkets.com/en/downloads" },
+        { label: "GO Markets Android", url: "https://play.google.com/store/apps/details?id=ctrader.gomarkets.app&hl=en_IN" },
         { label: "Investec app", url: "https://play.google.com/store/apps/details?id=com.investec.app" },
       ],
     },
@@ -83,7 +83,14 @@ export const resumeData = {
         "Developed features and UI screens for location-based offers, news, event discovery, and Duke of Edinburgh's Award progress tracking.",
       impact: ["Built reusable UI components", "Implemented progress tracking features", "Improved user experience"],
       tech: ["React Native", "Redux-Saga", "Hooks"],
-      links: [{ label: "DofE app", url: "https://play.google.com/store/apps/details?id=org.production.edofe" }],
+      links: [
+        { label: "IN THE CITY Android", url: "https://play.google.com/store/apps/details?id=com.production.primera&hl=en_IN" },
+        { label: "IN THE CITY iOS", url: "https://apps.apple.com/in/app/in-the-city-app/id1597755515" },
+        { label: "CDA Android", url: "https://play.google.com/store/apps/details?id=com.production.centraldistrictalliance&hl=en_IN" },
+        { label: "CDA iOS", url: "https://apps.apple.com/in/app/cda-club-app/id1629030019" },
+        { label: "DofE Android", url: "https://play.google.com/store/apps/details?id=org.production.edofe" },
+        { label: "DofE iOS", url: "https://apps.apple.com/in/app/dofe/id1476364195" },
+      ],
     },
   ],
   experience: [
